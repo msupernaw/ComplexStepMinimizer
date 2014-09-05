@@ -1,9 +1,10 @@
 
 An example of using complex-step differntiation in function minimization. The complex-step derivative approximation is a very convenient way of estimating derivatives numerically. It is a simple and accurate means of finding derivatives of a quantity calculated by an existing algorithm.
 
-This minimizer is uses a modified version of Charles Dubout's LBFGS algorithm. 
+This minimizer uses a modified version of Charles Dubout's LBFGS algorithm. 
 
 To use this function minimizer:
+
 <code>
 #include "FunctionMinimizer.hpp"
 
