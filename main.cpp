@@ -54,7 +54,7 @@ public:
     void ObjectiveFunction(variable& f) {
         variable norm(0);
         for (int i = 0; i < x.size(); i++) {
-            variable tmp = ((a * x[i]) / (T(1) + b * x[i])) * v[i]; // x[i] * a + b;
+            variable tmp = ((a * x[i]) / (T(1) + b * x[i])) * v[i]; 
             norm += (tmp - y[i])*(tmp - y[i]);
         }
         //        
@@ -64,7 +64,7 @@ public:
     void Dump() {
         std::ofstream report("model_output.csv");
         for (int i = 0; i < x.size(); i++) {
-            variable tmp = ((a * x[i]) / (T(1) + b * x[i])) * v[i]; // x[i] * a + b;
+            variable tmp = ((a * x[i]) / (T(1) + b * x[i])) * v[i]; 
             report << x[i] << ", " << y[i] << ", " << tmp.real() << "\n";
         }
     }
