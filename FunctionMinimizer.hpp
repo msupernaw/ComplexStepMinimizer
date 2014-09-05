@@ -76,7 +76,7 @@ namespace csfm {
     private:
 
         void Print(variable& fv, std::vector<variable*>& p, std::valarray<T>& g) {
-            std::cout << "\nFunction Value: " << fv.real() << "\n";
+            std::cout << "Function Value: " << fv.real() << "\n";
             for (int i = 0; i < p.size(); i++) {
                 std::cout << i << " "/* << std::scientific */ << p[i]->real() << " " << g[i] << " | ";
                 if (i < p.size() - 1) {
@@ -88,7 +88,6 @@ namespace csfm {
                 }
 
             }
-            std::cout << std::endl;
             std::cout << std::endl;
         }
 
