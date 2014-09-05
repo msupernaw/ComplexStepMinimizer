@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
     MyModel<double> fm;
     fm.Initialize();
     if (!fm.Run()) {
-        std::cout << "mode did not converge!\n";
+        std::cout << "model did not converge!\n";
     } else {
 
         std::cout << "model converged!\n";
