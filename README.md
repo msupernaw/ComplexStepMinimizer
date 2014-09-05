@@ -5,7 +5,7 @@ This minimizer uses a modified version of Charles Dubout's LBFGS algorithm.
 
 To use this function minimizer:
 
-<code>
+<syntaxhighlight lang="cpp">
 #include "FunctionMinimizer.hpp"
 
 template<class T>
@@ -41,7 +41,7 @@ int main(int argc, char** argv) {
     return 0;
 }
 
-</code>
+</syntaxhighlight>
 
 Output:
 
