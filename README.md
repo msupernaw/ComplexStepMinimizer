@@ -42,7 +42,7 @@ int main(int argc, char** argv) {
 }
 
 ```
-
+```
 Output:
 
 Function Value: 0
@@ -77,3 +77,4 @@ Function Value: -1
 
 model converged!
 
+```
